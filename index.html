@@ -3,24 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strona główna</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="o-mnie.html">O mnie</a>
-            <a href="jak-pracuje.html">Jak pracuję</a>
-            <a href="kontakt.html">Kontakt</a>
+    <header class="header">
+        <nav class="main-nav">
+            <a href="index.html" class="logo">P.</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Start</a>
+                <a href="o-mnie.html">O mnie</a>
+                <a href="jak-pracuje.html">Jak pracuję</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
         </nav>
-        <h1>Witamy na stronie głównej</h1>
     </header>
+
     <main>
-        <p>To jest szablon statycznej strony internetowej.</p>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Życie w&nbsp;idealnej Równowadze</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <a href="kontakt.html" class="cta-button">Skontaktuj się</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Efekt W&nbsp;Czasie</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <a href="o-mnie.html" class="text-button">Czytaj więcej</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="O mnie">
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery1.jpg" alt="Projekt 1">
+                    <div class="gallery-caption">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery2.jpg" alt="Projekt 2">
+                    <div class="gallery-caption">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery3.jpg" alt="Projekt 3">
+                    <div class="gallery-caption">
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="consultation">
+            <div class="consultation-content">
+                <h2>Umów się na Konsultację</h2>
+                <p>Skontaktuj się ze mną i umów się na bezpłatną konsultację.</p>
+                <div class="consultation-info">
+                    <a href="kontakt.html" class="cta-button">Kontakt</a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2025 Moja Strona</p>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Portfolio. Wszelkie prawa zastrzeżone.</p>
+        </div>
     </footer>
 </body>
 </html>
