@@ -1,0 +1,14 @@
+{
+  "name": "static-website",
+  "version": "1.0.0",
+  "description": "A simple static website project.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
